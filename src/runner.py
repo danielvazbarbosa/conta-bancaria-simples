@@ -1,4 +1,4 @@
-from src.conta import Conta
+from conta import Conta
 
 if __name__ == '__main__':
     minhaConta = Conta(1001, 2000)
