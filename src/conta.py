@@ -1,4 +1,5 @@
 class Conta:
+
     def __init__(self, numero:int, saldo:float):
         self.limite = 100
         self.numero = numero
@@ -45,8 +46,6 @@ class Conta:
             else:
                 print('Saldo insuficiente para a transferência.')
                 return False
-
-
 
     def verExtrato(self):
             return self.extrato
